@@ -1,0 +1,22 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(gh repo *)",
+      "Bash(mkdir -p /Users/dab/Documents/ZTM/Vibe_Coding/scoundrel-game-pwa/public/assets && cp /tmp/scoundrel-game/assets/*.webp /tmp/scoundrel-game/assets/favicon.png /Users/dab/Documents/ZTM/Vibe_Coding/scoundrel-game-pwa/public/assets/ && ls /Users/dab/Documents/ZTM/Vibe_Coding/scoundrel-game-pwa/public/assets)",
+      "Bash(cp /tmp/scoundrel-game/styles.css /Users/dab/Documents/ZTM/Vibe_Coding/scoundrel-game-pwa/src/scoundrel.css)",
+      "Bash(cp /tmp/scoundrel-game/game.js /Users/dab/Documents/ZTM/Vibe_Coding/scoundrel-game-pwa/src/scoundrel-game.js)",
+      "Bash(curl -s http://localhost:5173/)",
+      "Bash(curl -sI http://localhost:5173/assets/deck.webp)",
+      "Bash(pkill -f \"vite\")",
+      "Bash(sips -s format png -z 192 192 /Users/dab/Documents/ZTM/Vibe_Coding/scoundrel-game-pwa/public/assets/favicon.png --out /Users/dab/Documents/ZTM/Vibe_Coding/scoundrel-game-pwa/public/assets/icon-192.png)",
+      "Bash(sips -s format png -z 512 512 /Users/dab/Documents/ZTM/Vibe_Coding/scoundrel-game-pwa/public/assets/favicon.png --out /Users/dab/Documents/ZTM/Vibe_Coding/scoundrel-game-pwa/public/assets/icon-512.png)",
+      "Bash(curl -sI http://localhost:4173/manifest.webmanifest)",
+      "Bash(curl -sI http://localhost:4173/sw.js)",
+      "Bash(curl -s http://localhost:4173/)",
+      "Bash(pkill -f \"vite preview\")"
+    ],
+    "additionalDirectories": [
+      "/tmp/scoundrel-game/assets"
+    ]
+  }
+}
